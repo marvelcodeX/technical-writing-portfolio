@@ -1,5 +1,5 @@
 
-# HTTPBin API Documentation: GET `/get`
+# HTTPBin API Documentation
 
 ## 1. Overview
 
