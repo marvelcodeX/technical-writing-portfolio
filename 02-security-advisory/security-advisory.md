@@ -93,13 +93,13 @@ This can result in remote code execution without requiring the attacker to have 
 
 ## 4. Affected Versions
 
-According to the National Vulnerability Database (NVD), the vulnerability affects Apache Log4j2 versions from `2.0-beta9` through `2.15.0`, excluding the security releases `2.12.2`, `2.12.3`, and `2.3.1`.
+According to Apache's security advisory, CVE-2021-44228 affects `log4j-core` versions in these ranges: `2.0-beta9` to before `2.3.1`, `2.4` to before `2.12.2`, and `2.13.0` to before `2.15.0`. The `log4j-api` component alone is not affected.
 
-The vulnerability specifically affects the `log4j-core` component.
+Apache's fix in Log4j `2.15.0` was incomplete in certain non-default configurations. This issue was tracked separately as CVE-2021-45046. Therefore, upgrading only to `2.15.0` is not sufficient; use a currently supported release and follow Apache's security guidance.
 
 | Component | Affected Versions |
 |---|---|
-| Apache Log4j2 Core | `2.0-beta9` through `2.15.0`, subject to the listed security-release exceptions |
+| Apache Log4j2 Core | `2.0-beta9` to before `2.3.1`; `2.4` to before `2.12.2`; and `2.13.0` to before `2.15.0` |
 | Log4j API | Not directly affected by this CVE |
 
 The Log4j 1.x branch is not affected by this specific CVE, but it is end-of-life and has separate security concerns.
