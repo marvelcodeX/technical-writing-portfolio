@@ -8,7 +8,7 @@ This portfolio showcases my ability to research technical concepts, understand s
 
 ### 01. API Documentation
 
-**HTTPBin API Reference**
+**[HTTPBin API Reference](01-api-documentation/api-reference.md)**
 
 Reference documentation for selected HTTPBin endpoints, covering HTTP methods, request parameters, headers, request bodies, response structures, and status codes.
 
@@ -16,7 +16,7 @@ Reference documentation for selected HTTPBin endpoints, covering HTTP methods, r
 
 ### 02. Cybersecurity Documentation
 
-**Log4Shell Security Advisory**
+**[Log4Shell Security Advisory](02-security-advisory/security-advisory.md)**
 
 A security advisory covering CVE-2021-44228 (Log4Shell), including its technical background, potential impact, detection, and remediation.
 
@@ -24,7 +24,7 @@ A security advisory covering CVE-2021-44228 (Log4Shell), including its technical
 
 ### 03. Technical Case Study
 
-**Soteria-AI: Dependency Risk Analyzer**
+**[Soteria-AI: Dependency Risk Analyzer](03-technical-case-study/soteria-ai.md)**
 
 A technical case study documenting a personal software project, including its problem statement, architecture, risk-scoring approach, implementation decisions, and current limitations.
 
@@ -32,7 +32,7 @@ A technical case study documenting a personal software project, including its pr
 
 ### 04. Additional Writing
 
-**Research-Based Articles**
+**[Research-Based Articles](04-additional-writing/README.md)**
 
 Selected articles exploring cybersecurity, technology, and digital privacy, originally published on Substack.
 
